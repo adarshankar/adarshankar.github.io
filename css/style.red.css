@@ -1,12 +1,3 @@
-/* 
-========================================= 
-========================================= 
-
-Startup Template By Bootstrapious.com      
-
-========================================= 
-========================================= */
-/* variant 4 - red */
 /*
 
 =====================
@@ -14,9 +5,26 @@ GENERAL
 =====================
 
 */
+
+#video-background {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: auto;
+  width: auto;
+  height: auto;
+  z-index: -100;
+}
+
 html {
   height: 100%;
 }
+
+h1 { font-family: 'Roboto', sans-serif; font-weight:400; }
+h2 { font-family: 'Roboto', sans-serif; font-weight:300; }
+h3 { font-family: 'Roboto', sans-serif; font-weight:100; }
+
 body {
   height: 100%;
   font-weight: 300;
@@ -59,7 +67,7 @@ section.background-secondary {
 }
 .italic {
   font-style: italic;
-  font-family: "Georgia", "Times New Roman", Times, serif;
+  font-family: 'Roboto', sans-serif;
 }
 .heading {
   text-align: left;
@@ -822,7 +830,7 @@ NAVBAR
 
 */
 .header {
-  width: 100%;
+  width: 66%;
 }
 .navbar {
   font-weight: 700;
@@ -1032,7 +1040,7 @@ STYLE SWITCHER FOR DEMO
 }
 /* navbar */
 .navbar {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: font-family: 'Roboto', sans-serif;
   min-height: 80px;
   margin-bottom: 0;
   border-top: none;
@@ -1319,7 +1327,7 @@ STYLE SWITCHER FOR DEMO
 }
 /* scaffolding */
 body {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.55;
   color: #000000;
@@ -1396,7 +1404,7 @@ hr {
 /* buttons  */
 .btn {
   font-weight: 400;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   padding: 6px 12px;
   font-size: 16px;
   line-height: 1.55;
@@ -1515,7 +1523,7 @@ fieldset[disabled] .btn-transparent.active {
 }
 /* labels */
 .label {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: normal;
   text-transform: uppercase;
 }
@@ -1680,8 +1688,8 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  font-weight: 700;
+  font-family: 'Roboto', sans-serif';
+  font-weight: 400;
   line-height: 1.2;
   color: #000000;
 }
