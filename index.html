@@ -10,7 +10,7 @@
     <!-- Bootstrap-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Google fonts - Open Sans-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800,400italic">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100' rel='stylesheet' type='text/css'>
     <!-- Stroke 7 font by Pixeden (http://www.pixeden.com/icon-fonts/stroke-7-icon-font-set)-->
     <link rel="stylesheet" href="css/pe-icon-7-stroke.css">
     <link rel="stylesheet" href="css/helper.css">
@@ -30,21 +30,21 @@
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
   </head>
   <body data-spy="scroll" data-target="#navigation" data-offset="120">
+
     <div id="all">
       <!-- navbar-->
       <header class="header">
         <div role="navigation" class="navbar transparent navbar-default navbar-fixed-top">
-          <div class="container">
+          <div class="container"  style="font-family: 'Roboto', sans-serif; font-weight:300;">
             <div class="navbar-header"><a href="#all" class="navbar-brand scroll-to"><img src="img/logo.png" alt="logo" class="hidden-xs hidden-sm"><img src="img/logo-small.png" alt="logo" class="visible-xs visible-sm"><span class="sr-only">Go to homepage</span></a>
               <div class="navbar-buttons">
                 <button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle navbar-btn">Menu<i class="pe-7s-menu"></i></button>
               </div>
             </div>
-            <div id="navigation" class="collapse navbar-collapse navbar-right">
+            <div id="navigation" class="collapse navbar-collapse navbar-left">
               <ul class="nav navbar-nav">
-                <li><a href="#features" class="scroll-to">Features</a></li>
                 <li><a href="#text" class="scroll-to">About</a></li>
-                <li><a href="#integrations" class="scroll-to">Mobile App</a></li>
+                <li><a href="#integrations" class="scroll-to">Features</a></li>
                 <li><a href="#testimonials" class="scroll-to">Team</a></li>
                 <li><a href="#contact" class="scroll-to">Contact</a></li>
               </ul><a href="#" data-toggle="modal" data-target="#get-started" class="btn navbar-btn btn-ghost">Login</a>
@@ -86,54 +86,57 @@
         </div>
       </div>
       <!-- *** SIGNUP MODAL END ***-->
-      <section id="intro" class="text-intro" style="background-image: url('img/zaeo.jpg'); background-attachment: fixed; padding: 200px;">
-        <div class="container" style="text-align: center !important;"">
+      <section id="intro" class="intro-banner" >
+          <video autoplay="" loop="" class="fillWidth fadeIn animated" poster="https://s3-us-west-2.amazonaws.com/coverr/poster/Traffic-blurred2.jpg" id="video-background">
+              <source src="https://s3-us-west-2.amazonaws.com/coverr/mp4/Traffic-blurred2.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
+          </video>
+        <div class="container-fluid" style="color: #ffffff; text-align: center !important;" >
+
           <div class="row">
             <div class="col-md-12">
-              <h1>Welcome to ZAEO!</h1>
-              <h3 class="weight-300">Loyalty, <span class="rotate">re-imagined. , re-imagined. , re-imagined. </span> </h3>
+              <h1  style="color: #ffffff; font-weight:400;">ZAEO</h1>
+              <h3 style="color: #ffffff; font-weight:100;">Loyalty, <span style="color: #ff7473;" class="rotate">re-imagined , re-imagined , re-imagined </span> </h3>
               <!-- <h3 class="weight-300">It is SEO friendly, responsive and free.</h3> -->
             </div>
           </div>
           <div class="row">
             <div class="col-md-12">
-              <p>Buy more, earn more.<br />Try it for yourself.</p>
+              <p>Do MORE with LESS<br />Try it for yourself</p>
                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#get-started" >Sign Up for FREE!</button>
 
                 </div>
             </div>
 
           </div>
-        </div>
       </section>
       <!--   *** CUSTOMERS ***-->
       <section id="customers" class="section background-gray-lightest padding--small">
         <div class="container">
           <div class="row">
             <div class="col-sm-6 col-md-3 col-xs-9">
-              <div class="customer"><img src="img/customers/kofola.png" title="Google" data-placement="bottom" data-toggle="tooltip" alt="" class="img-responsive"></div>
+              <div class="customer"><img src="img/customers/kofola.png" title="USA" data-placement="bottom" data-toggle="tooltip" alt="" class="img-responsive"></div>
             </div>
             <div class="col-sm-6 col-md-3 col-xs-9">
-              <div class="customer"><img src="img/customers/evian.png" title="Apple" data-placement="bottom" data-toggle="tooltip" alt="" class="img-responsive"></div>
+              <div class="customer"><img src="img/customers/evian.png" title="India" data-placement="bottom" data-toggle="tooltip" alt="" class="img-responsive"></div>
             </div>
             <div class="col-sm-6 col-md-3 col-xs-9">
-              <div class="customer"><img src="img/customers/cslink.png" title="HTC" data-placement="bottom" data-toggle="tooltip" alt="" class="img-responsive"></div>
+              <div class="customer"><img src="img/customers/cslink.png" title="Canada" data-placement="bottom" data-toggle="tooltip" alt="" class="img-responsive"></div>
             </div>
             <div class="col-sm-6 col-md-3 col-xs-9">
-              <div class="customer"><img src="img/customers/botas66.png" title="Microsoft" data-placement="bottom" data-toggle="tooltip" alt="" class="img-responsive"></div>
+              <div class="customer"><img src="img/customers/botas66.png" title="UK" data-placement="bottom" data-toggle="tooltip" alt="" class="img-responsive"></div>
             </div>
           </div>
         </div>
       </section>
       <!--   *** CUSTOMERS END ***-->
-      <!--   *** FEATURES ***-->
+      <!--   *** FEATURES ***
       <section id="features" class="section">
         <div class="container">
           <div class="row text-center-mobile"> 
             <div class="col-md-6">
               <div class="icon"><i class="pe-7s-diamond"></i></div>
-                <h2 class="featurette-heading">Premium Loyalty.<span class="text-muted"> Free Membership.</span></h2>
-                <p>Membership to Zaeo India is completely free, and only requires a phone number and email address for registration! Through the program, you can acquire rewards points redeemable for products from stores you shop at! Even more, you get deeper discounts than the aam-jhanta that shop at these stores!</p>
+                <h2 style="font-family: 'Roboto', sans-serif; font-weight:300;" class="featurette-heading">Premium Loyalty.<span class="text-muted"> Free Membership.</span></h2>
+                <p style="font-family: 'Roboto', sans-serif; font-weight:100;">Membership to Zaeo India is completely free, and only requires a phone number and email address for registration! Through the program, you can acquire rewards points redeemable for products from stores you shop at! Even more, you get deeper discounts than the aam-jhanta that shop at these stores!</p>
             </div>
             <div class="col-md-6">
               <p><img alt="" src="img/features1.png" class="img-responsive"></p>
@@ -149,8 +152,8 @@
             </div>
             <div class="col-md-6">
               <div class="icon brand-terciary"><i class="pe-7s-rocket"></i></div>
-                <h2 class="featurette-heading">Universal Points.<span class="text-muted"> Exclusive Rewards.</span></h2>
-                <p>If you shop at certain Zaeo India supported institutions often enough, you will get exclusive discounts via text, or email!</p>
+                <h2 style="font-family: 'Roboto', sans-serif; font-weight:300;" class="featurette-heading">Universal Points.<span class="text-muted"> Exclusive Rewards.</span></h2>
+                <p style="font-family: 'Roboto', sans-serif; font-weight:100;">If you shop at certain Zaeo India supported institutions often enough, you will get exclusive discounts via text, or email!</p>
             </div>
           </div>
         </div>
@@ -160,22 +163,22 @@
           <div class="row">
             <div class="col-md-12 col-lg-8 col-lg-offset-2 text-center">
               <div class="icon brand-secondary"><i class="pe-7s-alarm"></i></div>
-                <h2 class="featurette-heading">Shop Anytime,<span class="text-muted"> Anywhere.</span></h2>
-                <p>Wherever, whenever, our universal points system allows members to gain points whenever they spend money at stores that support Zaeo India. These points can then be redeemed for exclusive merchandise, and free products from the stores you shop at!</p>
+                <h2 style="font-family: 'Roboto', sans-serif; font-weight:300;" class="featurette-heading">Shop Anytime,<span class="text-muted"> Anywhere.</span></h2>
+                <p style="font-family: 'Roboto', sans-serif; font-weight:100;">Wherever, whenever, our universal points system allows members to gain points whenever they spend money at stores that support Zaeo India. These points can then be redeemed for exclusive merchandise, and free products from the stores you shop at!</p>
               <p class="margin-bottom--zero"><img alt="" src="img/features3.png" class="img-responsive"></p>
             </div>
           </div>
         </div>
       </section>
-      <!--   *** FEATURES END ***  -->
+        *** FEATURES END ***  -->
       <!--   *** TEXT ***-->
       <section id="text" class="text-page section-inverse background-secondary">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <h2 class="text-center">About</h2>
+              <h2 class="text-center" style="font-family: 'Roboto', sans-serif; font-weight:400;">About</h2>
               <p class="lead text-center">Add some more details about ZAEO here.</p>
-              <div class="row">
+              <div class="row" style="font-family: 'Roboto', sans-serif; font-weight:100;">
                 <div class="col-sm-6">
                   <p>Able an hope of body. Any nay shyness article matters own removal nothing his forming. Gay own additions education satisfied the perpetual. If he cause manor happy. Without farther she exposed saw man led. Along on happy could cease green oh. </p>
                   <p>Betrayed cheerful declared end and. Questions we additions is extremely incommode. Next half add call them eat face. Age lived smile six defer bed their few. Had admitting concluded too behaviour him she. Of death to or to being other. </p>
@@ -195,7 +198,7 @@
         <div class="container clearfix">
           <div class="row services">
             <div class="col-md-12">
-              <h4 class="services-heading">Mobile App</h4>
+              <h4 class="services-heading">FEATURES</h4>
               <div class="row">
                 <div class="col-sm-4">
                   <div class="box box-services">
@@ -219,7 +222,7 @@
                   </div>
                 </div>
               </div>
-              <h4 class="services-heading">TOOLS</h4>
+              <h4 class="services-heading">MOBILE APP</h4>
               <div class="row">
                 <div class="col-sm-4">
                   <div class="box box-services">
@@ -248,39 +251,36 @@
         </div>
       </section>
       <!--   *** INTEGRATIONS END ***-->
-      <!--   *** TEAM ***-->
     <section id="testimonials" class="section background-gray-lightest">
 
         <!-- Three columns of text below the carousel -->
         <div class="container fluid" style="text-align: center !important;">
         <div class="row">
-            <h1 id="h1" class="text-center">Meet the Team</h1>
+            <h1 id="h1" class="text-center" style="font-family: 'Roboto', sans-serif; font-weight:400;">Meet the Team</h1>
             <div class="col-xs-4">
-                <img class="img-thumbnail" src="https://scontent.fblr1-1.fna.fbcdn.net/v/t1.0-9/1012084_10202331349064027_1471521411_n.jpg?oh=9cf4b6593db79d847d5977221e0c41a5&oe=57FB8DBB" alt="Generic placeholder image" width="180" height="180">
-                <h2 class="weight-300">Parth Bharwad</h2>
-                <p>Co-Founder</p>
+                <img class="img-circle" src="https://scontent.fblr1-1.fna.fbcdn.net/v/t1.0-9/1012084_10202331349064027_1471521411_n.jpg?oh=9cf4b6593db79d847d5977221e0c41a5&oe=57FB8DBB" alt="Generic placeholder image" width="180" height="180">
+                <h2 style="font-family: 'Roboto', sans-serif; font-weight:300;">Parth Bharwad</h2>
+                <p style="font-family: 'Roboto', sans-serif; font-weight:100;">Co-Founder</p>
                 <p><a class="btn navbar-btn btn-ghost" href="#" role="button">View details &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-xs-4">
-                <img class="img-thumbnail" src="https://scontent.fblr1-1.fna.fbcdn.net/v/t1.0-9/11058747_672211542922591_1342603341918512118_n.jpg?oh=96cb1fc420b72015487a9b70ead49c2e&oe=57EF9E5E" alt="Generic placeholder image" width="180" height="180">
-                <h2 class="weight-300">Akhilesh Shridar</h2>
-                <p>Co-Founder</p>
+                <img class="img-circle" src="https://scontent.fblr1-1.fna.fbcdn.net/v/t1.0-9/11058747_672211542922591_1342603341918512118_n.jpg?oh=96cb1fc420b72015487a9b70ead49c2e&oe=57EF9E5E" alt="Generic placeholder image" width="180" height="180">
+                <h2 style="font-family: 'Roboto', sans-serif; font-weight:300;">Akhilesh Shridar</h2>
+                <p style="font-family: 'Roboto', sans-serif; font-weight:100;">Co-Founder</p>
                 <p><a class="btn navbar-btn btn-ghost" href="#" role="button">View details &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-xs-4">
-                <img class="img-thumbnail" src="https://scontent.fblr1-1.fna.fbcdn.net/v/t1.0-9/12745484_842311402581911_1104635190707926107_n.jpg?oh=71db426598610dff28097cf590a688cc&oe=57FA0044" alt="Generic placeholder image" width="180" height="180">
-                <h2 class="weight-300">Adarsh Shankar</h2>
-                <p>Web Developer</p>
+                <img class="img-circle" src="https://scontent.fblr1-1.fna.fbcdn.net/v/t1.0-9/12745484_842311402581911_1104635190707926107_n.jpg?oh=71db426598610dff28097cf590a688cc&oe=57FA0044" alt="Generic placeholder image" width="180" height="180">
+                <h2 style="font-family: 'Roboto', sans-serif; font-weight:300;">Adarsh Shankar</h2>
+                <p style="font-family: 'Roboto', sans-serif; font-weight:100;">Lead Developer</p>
                 <p><a class="btn navbar-btn btn-ghost" href="#" role="button">View details &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
         </div>
     </section>
-    <!--   *** TEAMS END ***-->
-    <!--   *** CONTACT ***-->
-      <section class="signup-section text-center no-padding-bottom">
+      <section id="contact" class="signup-section text-center no-padding-bottom">
           <div class="container">
-              <h2 class="featurette-heading">Contact Us</h2>
+              <h2 class="featurette-heading" style="font-family: 'Roboto', sans-serif; font-weight:400;">Contact Us</h2>
           <form id="contact-form" method="post" action="php/contact.php" role="form">
 
               <div class="controls" style="text-align: left !important;">
@@ -341,15 +341,14 @@
           </form>
           </div>
       </section>
-      <!--   *** CONTACTS END ***-->
-      <section id="contact" class="section background-gray-lightest"> 
+      <section  class="section background-gray-lightest">
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-4">
               <div class="box-simple">
                 <div class="icon"><i class="pe-7s-map-2"></i></div>
                 <h3>Address</h3>
-                <p>3139 Mission St,<br>San Fransisco, <br>CA 94110, <strong>USA</strong></p>
+                <a href="https://www.google.co.in/maps/place/3139+Mission+St,+San+Francisco,+CA+94110,+USA/@37.7470161,-122.4209057,17z/data=!3m1!4b1!4m5!3m4!1s0x808f7e438964039d:0xa7acfaad2c2458bb!8m2!3d37.7470161!4d-122.418717" target="_blank">3139 Mission St,<br>San Fransisco, <br>CA 94110, <strong>USA</strong></a>
               </div>
             </div>
             <div class="col-md-4">
@@ -394,6 +393,7 @@
     <script src="js/jquery.scrollTo.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/front.js"></script>
+        <script src="js/contact.js"></script>
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID.-->
     <!---->
     <script>
