@@ -8,10 +8,10 @@ GENERAL
 
 #video-background {
   position: absolute;
-  bottom: 0;
   right: 0;
+  bottom: 0;
   min-width: 100%;
-  min-height: auto;
+  min-height: 100%;
   width: auto;
   height: auto;
   z-index: -100;
@@ -21,7 +21,7 @@ html {
   height: 100%;
 }
 
-h1 { font-family: 'Roboto', sans-serif; font-weight:400; }
+h1 { font-family: 'Playfair Display', serif; font-weight:400; }
 h2 { font-family: 'Roboto', sans-serif; font-weight:300; }
 h3 { font-family: 'Roboto', sans-serif; font-weight:100; }
 
@@ -1676,26 +1676,26 @@ label {
   }
 }
 /* type */
-h1,
 h2,
 h3,
 h4,
 h5,
 h6,
-.h1,
 .h2,
 .h3,
 .h4,
 .h5,
 .h6 {
   font-family: 'Roboto', sans-serif';
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.2;
   color: #000000;
 }
 h1,
 .h1 {
-  font-size: 48px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 48px;
 }
 h2,
 .h2 {
